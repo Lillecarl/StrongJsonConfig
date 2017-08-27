@@ -13,5 +13,9 @@
         <releaseNotes>Release</releaseNotes>
         <copyright>Copyright 2017</copyright>
         <tags>JSON config jsonconfig strong static class</tags>
+
+        <dependencies>
+            <dependency id="Newtonsoft.Json" version="10.0.3"/>
+        </dependencies>
     </metadata>
 </package>
