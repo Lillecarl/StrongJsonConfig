@@ -15,7 +15,7 @@
     <SynchReleaseVersion>false</SynchReleaseVersion>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>StrongJsonConfig</PackageId>
-    <PackageVersion>1.2</PackageVersion>
+    <PackageVersion>1.2.1</PackageVersion>
     <Authors>Carl Hjerpe</Authors>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseUrl>https://github.com/Lillecarl/StrongJsonConfig/blob/master/LICENSE</PackageLicenseUrl>
