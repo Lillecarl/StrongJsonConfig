@@ -1,12 +1,13 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace JsonConfig
 {
     internal static class FileInteractor
     {
-        public static Tuple<bool, T> Load<T>(string filename) where T : new()
+        public static KeyValuePair<bool, T> Load<T>(string filename) where T : new()
         {
 			bool defconf = false;
 
@@ -41,7 +42,7 @@ namespace JsonConfig
 			else
 				File.WriteAllText(filename, JsonConvert.SerializeObject(Config, Formatting.Indented));
 
-            return Tuple.Create(defconf, Config);
+            return new KeyValuePair<bool, T>(defconf, Config);
         }
 
         public static void Save(string filename, object Config)

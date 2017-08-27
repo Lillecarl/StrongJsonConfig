@@ -38,9 +38,9 @@
 			_filename = filename;
 
 			var result = FileInteractor.Load<T>(filename);
-            config = result.Item2;
+            config = result.Value;
 
-			return result.Item1;
+            return result.Key;
         }
 
 		/// <summary>
