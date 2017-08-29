@@ -43,6 +43,14 @@
             return result.Key;
         }
 
+        /// <summary>
+		/// Reload config file
+		/// </summary>
+        public void Reload()
+        {
+            config = FileInteractor.Load<T>(_filename).Value;
+        }
+
 		/// <summary>
 		/// Save config file
 		/// </summary>

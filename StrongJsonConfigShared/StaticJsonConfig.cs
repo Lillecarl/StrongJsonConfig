@@ -24,6 +24,14 @@
         }
 
         /// <summary>
+        /// Reload config file
+        /// </summary>
+        public static void Reload()
+        {
+            Config = FileInteractor.Load<T>(_filename).Value;
+        }
+
+        /// <summary>
         /// Save config file
         /// </summary>
         public static void Save()

@@ -22,6 +22,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrongJsonConfig200", "StrongJsonConfig200\StrongJsonConfig200.csproj", "{0E78607F-D970-4AEE-B781-2CAC16F0656A}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		StrongJsonConfigShared\StrongJsonConfigShared.projitems*{0e78607f-d970-4aee-b781-2cac16f0656a}*SharedItemsImports = 4
+		StrongJsonConfigShared\StrongJsonConfigShared.projitems*{1e78607f-d970-4aee-b781-2cac16f0656a}*SharedItemsImports = 4
+		StrongJsonConfigShared\StrongJsonConfigShared.projitems*{2c75bb6a-453d-4139-8333-9f8b4289ef1b}*SharedItemsImports = 4
+		StrongJsonConfigShared\StrongJsonConfigShared.projitems*{2e78607f-d970-4aee-b781-2cac16f0656a}*SharedItemsImports = 4
+		StrongJsonConfigShared\StrongJsonConfigShared.projitems*{3e78607f-d970-4aee-b781-2cac16f0656a}*SharedItemsImports = 4
+		StrongJsonConfigShared\StrongJsonConfigShared.projitems*{3e78607f-d970-4bee-b781-2cac16f0556b}*SharedItemsImports = 4
+		StrongJsonConfigShared\StrongJsonConfigShared.projitems*{3e78607f-d970-4bee-b781-2cac16f0656a}*SharedItemsImports = 4
+		StrongJsonConfigShared\StrongJsonConfigShared.projitems*{3e78607f-d970-4bee-b781-2cac16f0656b}*SharedItemsImports = 4
+		StrongJsonConfigShared\StrongJsonConfigShared.projitems*{b28e0e6c-afeb-4274-9206-7d16ce0ec187}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
